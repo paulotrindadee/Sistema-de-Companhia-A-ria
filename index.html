@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <title>Sistema de Companhia Aérea</title>
+  </head>
+  <body>
+    <h1>Sistema de Companhia Aérea</h1>
+
+    <label for="voos">Lista de Voos:</label>
+    <textarea id="voos" rows="10" cols="50">
+Rio de Janeiro x São Paulo;50
+São Paulo x Maringá;55
+Porto Alegre x Salvador;180
+Belo Horizonte x Rio de Janeiro;65
+Manaus x Cuiabá;70
+    </textarea>
+
+    <label for="aeronaves">Lista de Aeronaves:</label>
+    <textarea id="aeronaves" rows="5" cols="30">
+AER001-AIRBUS
+AER002-BOING
+AER1010-EMBRAER
+    </textarea>
+
+    <button id="combinaVoosButton">Combinar Voos</button>
+
+    <h2>Combinações de Voos:</h2>
+    <div id="resultados"></div>
+
+    <h2>Relatório:</h2>
+    <div id="relatorio"></div>
+  </body>
+</html>
